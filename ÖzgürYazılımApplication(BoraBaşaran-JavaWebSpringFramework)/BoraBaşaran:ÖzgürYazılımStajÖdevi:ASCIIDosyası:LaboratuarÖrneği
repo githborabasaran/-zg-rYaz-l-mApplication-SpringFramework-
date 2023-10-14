@@ -1,61 +1,55 @@
-# Laboratory Reporting Application
-
-Welcome to the Laboratory Reporting Application! This document provides instructions on how to install and run the application locally.
-
-## Prerequisites
-
-Before you begin, ensure you have the following installed on your system:
-
-- Java Development Kit (JDK) 8 or higher
-- Apache Maven
-- Node.js and npm (for the frontend)
-
-## Installation
-
-### Backend (Spring Boot)
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd laboratory-reporting-app
 
 
-Build and run the Spring Boot application using Maven:
+*******************************
+** Build and Run the Backend **
+*******************************
 
-Commands: 
+1) Navigate to the root directory of the Spring Boot application:
 
+Command:
+cd /Users/borabasaran/Desktop/ÖzgürYazılımApplication(BoraBaşaran-JavaWebSpringFramework)/LaboratoryWorkerRepository.java
+
+2) Build the Spring Boot application using Maven:
+
+Command:
 mvn clean install
+
+3) Run the Spring Boot application:
+
+Command:
 mvn spring-boot:run
 
+********************************
+** Start the React Frontend **
+********************************
 
-Frontend (React)
-1)Navigate to the frontend directory:
-
-Command:
-
-cd frontend
-
-2)Install dependencies:
+1) Navigate to the frontend directory:
 
 Command:
+cd /Users/borabasaran/Desktop/ÖzgürYazılımApplication(BoraBaşaran-JavaWebSpringFramework)/Frontend/index.html
 
+2) Install dependencies:
+
+Command:
 npm install
 
-3)Start the React development server:
+3) Start the React development server:
 
 Command:
-
 npm start
 
-*********Configuration*********
+********************************
+** Configuration **
+********************************
 
 The application uses the following configuration files:
 
-1) application.properties (in the src/main/resources folder) for Spring Boot configurations.
-2) .env (in the frontend folder) for React environment variables.
+1) `application.properties` (in the src/main/resources folder) for Spring Boot configurations.
+2) `.env` (in the frontend folder) for React environment variables.
 
-*********Usage*********
+********************************
+** Usage **
+********************************
 
 Access the application frontend at http://localhost:3000 in your web browser.
 Use the provided functionalities to create, update, view, and delete reports.
-
