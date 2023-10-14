@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Management System</title>
+  
+</head>
+<body>
+    <h1>Report Management System</h1>
+    
+    <!-- Form to create a new report -->
+    <h2>Create Report</h2>
+    <form id="createReportForm">
+        File Number: <input type="text" id="fileNumber"><br>
+        Patient Name: <input type="text" id="patientName"><br>
+        <!-- Add other input fields as per your Report entity properties -->
+        <button type="button" onclick="createReport()">Create Report</button>
+    </form>
+
+    <!-- Display the list of reports -->
+    <h2>Reports</h2>
+    <ul id="reportList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
